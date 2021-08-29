@@ -1,8 +1,5 @@
 version: '3.8'
 
-# The following configuration needs to be added to the hosts file.
-# 127.0.0.1 kafka-1 kafka-2 kafka-3
-
 services:
   zookeeper-1:
     image: confluentinc/cp-zookeeper
